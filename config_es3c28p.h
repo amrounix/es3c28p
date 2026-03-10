@@ -1,9 +1,10 @@
 #pragma once
 
+/*   ES3C28P   */
+#define BOARD_NAME "ES3C28P"
 
 #define TFT_ORIENTATION 1
 
-/*   ES3C28P   */
 #define DISABLE_ALL_LIBRARY_WARNINGS 1
 
 //TFT ESPI
@@ -43,6 +44,7 @@
 #define I2C_SDA  16
 #define I2C_SCL  15
 
+#define FT6X36_DRIVER
 //touch
 #define TOUCH_SDA  16
 #define TOUCH_SCL  15
